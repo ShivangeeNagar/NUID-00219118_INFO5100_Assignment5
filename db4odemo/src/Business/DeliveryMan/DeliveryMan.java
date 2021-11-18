@@ -7,7 +7,7 @@ package Business.DeliveryMan;
 
 /**
  *
- * @author harold
+ * @author shivanginagar
  */
 public class DeliveryMan {
     private String deliveryID;
