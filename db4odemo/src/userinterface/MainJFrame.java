@@ -97,11 +97,11 @@ public class MainJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 204));
         jPanel1.setForeground(new java.awt.Color(0, 51, 51));
 
         loginJButton.setBackground(new java.awt.Color(204, 255, 255));
-        loginJButton.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        loginJButton.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         loginJButton.setForeground(new java.awt.Color(0, 51, 51));
         loginJButton.setText("Login");
         loginJButton.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 51, 51)));
@@ -117,16 +117,16 @@ public class MainJFrame extends javax.swing.JFrame {
         passwordField.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
         passwordField.setForeground(new java.awt.Color(0, 51, 51));
 
-        jLabel1.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 51, 51));
         jLabel1.setText("User Name");
 
-        jLabel2.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 51, 51));
         jLabel2.setText("Password");
 
         logoutJButton.setBackground(new java.awt.Color(204, 255, 255));
-        logoutJButton.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        logoutJButton.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         logoutJButton.setForeground(new java.awt.Color(0, 51, 51));
         logoutJButton.setText("Logout");
         logoutJButton.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 51, 51)));
@@ -180,7 +180,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
         jSplitPane1.setLeftComponent(jPanel1);
 
-        container.setBackground(new java.awt.Color(0, 255, 204));
+        container.setBackground(new java.awt.Color(204, 255, 204));
         container.setLayout(new java.awt.CardLayout());
         jSplitPane1.setRightComponent(container);
 

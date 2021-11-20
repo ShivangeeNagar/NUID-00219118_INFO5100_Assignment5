@@ -76,35 +76,35 @@ public class AddCustomerJPanel extends javax.swing.JPanel {
         lblAddCust = new javax.swing.JButton();
         pwCustPass = new javax.swing.JPasswordField();
 
-        setBackground(new java.awt.Color(204, 255, 255));
+        setBackground(new java.awt.Color(204, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblAddCustomer.setBackground(new java.awt.Color(204, 255, 255));
-        lblAddCustomer.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
+        lblAddCustomer.setFont(new java.awt.Font("Tamil MN", 1, 18)); // NOI18N
         lblAddCustomer.setForeground(new java.awt.Color(0, 51, 51));
         lblAddCustomer.setText("Add Customer");
-        add(lblAddCustomer, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 20, -1, -1));
+        add(lblAddCustomer, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 20, -1, -1));
 
         lblCustName.setBackground(new java.awt.Color(204, 255, 255));
-        lblCustName.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblCustName.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblCustName.setForeground(new java.awt.Color(0, 51, 51));
         lblCustName.setText("Enter Full Name :");
         add(lblCustName, new org.netbeans.lib.awtextra.AbsoluteConstraints(84, 72, -1, -1));
 
         lblCustUserName.setBackground(new java.awt.Color(204, 255, 255));
-        lblCustUserName.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblCustUserName.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblCustUserName.setForeground(new java.awt.Color(0, 51, 51));
         lblCustUserName.setText("Set Username :");
         add(lblCustUserName, new org.netbeans.lib.awtextra.AbsoluteConstraints(93, 99, -1, -1));
 
         lblCustPass.setBackground(new java.awt.Color(204, 255, 255));
-        lblCustPass.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblCustPass.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblCustPass.setForeground(new java.awt.Color(0, 51, 51));
         lblCustPass.setText("Set Password :");
         add(lblCustPass, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 134, -1, -1));
 
         lblCustContact.setBackground(new java.awt.Color(204, 255, 255));
-        lblCustContact.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblCustContact.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblCustContact.setForeground(new java.awt.Color(0, 51, 51));
         lblCustContact.setText("Enter Contact No :");
         add(lblCustContact, new org.netbeans.lib.awtextra.AbsoluteConstraints(79, 190, -1, -1));
@@ -122,7 +122,7 @@ public class AddCustomerJPanel extends javax.swing.JPanel {
         add(txtCustContact, new org.netbeans.lib.awtextra.AbsoluteConstraints(222, 187, 127, -1));
 
         lblCustEmail.setBackground(new java.awt.Color(204, 255, 255));
-        lblCustEmail.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblCustEmail.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblCustEmail.setForeground(new java.awt.Color(0, 51, 51));
         lblCustEmail.setText("Enter Email ID:");
         add(lblCustEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(99, 222, -1, -1));
@@ -145,7 +145,7 @@ public class AddCustomerJPanel extends javax.swing.JPanel {
         add(pbCustPassStr, new org.netbeans.lib.awtextra.AbsoluteConstraints(222, 162, 127, 10));
 
         lblCustAddr.setBackground(new java.awt.Color(204, 255, 255));
-        lblCustAddr.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblCustAddr.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblCustAddr.setForeground(new java.awt.Color(0, 51, 51));
         lblCustAddr.setText("Enter Street Address :");
         add(lblCustAddr, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 251, -1, -1));
@@ -155,7 +155,7 @@ public class AddCustomerJPanel extends javax.swing.JPanel {
         add(txtCustAddr, new org.netbeans.lib.awtextra.AbsoluteConstraints(222, 249, 127, -1));
 
         lblCustZip.setBackground(new java.awt.Color(204, 255, 255));
-        lblCustZip.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblCustZip.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblCustZip.setForeground(new java.awt.Color(0, 51, 51));
         lblCustZip.setText("Enter Zip Code :");
         add(lblCustZip, new org.netbeans.lib.awtextra.AbsoluteConstraints(93, 283, -1, -1));
@@ -165,7 +165,7 @@ public class AddCustomerJPanel extends javax.swing.JPanel {
         add(txtCustZip, new org.netbeans.lib.awtextra.AbsoluteConstraints(222, 280, 127, -1));
 
         btnBack.setBackground(new java.awt.Color(204, 255, 255));
-        btnBack.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnBack.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnBack.setForeground(new java.awt.Color(0, 51, 51));
         btnBack.setText("Back");
         btnBack.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -174,7 +174,7 @@ public class AddCustomerJPanel extends javax.swing.JPanel {
                 btnBackActionPerformed(evt);
             }
         });
-        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(176, 321, 60, -1));
+        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 330, 60, -1));
 
         lblCustPhoto.setBackground(new java.awt.Color(222, 236, 236));
         lblCustPhoto.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
@@ -184,7 +184,7 @@ public class AddCustomerJPanel extends javax.swing.JPanel {
         add(lblCustPhoto, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 94, 102, 129));
 
         btnCustPhotoUpload.setBackground(new java.awt.Color(204, 255, 255));
-        btnCustPhotoUpload.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
+        btnCustPhotoUpload.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnCustPhotoUpload.setForeground(new java.awt.Color(0, 102, 102));
         btnCustPhotoUpload.setText("Upload");
         btnCustPhotoUpload.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -196,7 +196,7 @@ public class AddCustomerJPanel extends javax.swing.JPanel {
         add(btnCustPhotoUpload, new org.netbeans.lib.awtextra.AbsoluteConstraints(428, 232, 67, 27));
 
         lblAddCust.setBackground(new java.awt.Color(204, 255, 255));
-        lblAddCust.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblAddCust.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblAddCust.setForeground(new java.awt.Color(0, 51, 51));
         lblAddCust.setText("Add");
         lblAddCust.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -205,7 +205,7 @@ public class AddCustomerJPanel extends javax.swing.JPanel {
                 lblAddCustActionPerformed(evt);
             }
         });
-        add(lblAddCust, new org.netbeans.lib.awtextra.AbsoluteConstraints(305, 321, 60, -1));
+        add(lblAddCust, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 360, 60, -1));
 
         pwCustPass.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
         pwCustPass.setForeground(new java.awt.Color(0, 51, 51));
