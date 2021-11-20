@@ -77,10 +77,10 @@ public class OrderRequestJPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         btnBack = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 255, 255));
+        setBackground(new java.awt.Color(204, 255, 204));
         setForeground(new java.awt.Color(0, 51, 51));
 
-        workRequestJTable.setBackground(new java.awt.Color(204, 255, 255));
+        workRequestJTable.setBackground(new java.awt.Color(204, 255, 204));
         workRequestJTable.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
         workRequestJTable.setForeground(new java.awt.Color(0, 51, 51));
         workRequestJTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -115,7 +115,7 @@ public class OrderRequestJPanel extends javax.swing.JPanel {
         orderComment.setForeground(new java.awt.Color(0, 51, 51));
 
         btnOrderCmnt.setBackground(new java.awt.Color(204, 255, 255));
-        btnOrderCmnt.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnOrderCmnt.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnOrderCmnt.setForeground(new java.awt.Color(0, 51, 51));
         btnOrderCmnt.setText("Comment");
         btnOrderCmnt.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -126,12 +126,12 @@ public class OrderRequestJPanel extends javax.swing.JPanel {
         });
 
         lblOrderFeedback.setBackground(new java.awt.Color(204, 255, 255));
-        lblOrderFeedback.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblOrderFeedback.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblOrderFeedback.setForeground(new java.awt.Color(0, 51, 51));
         lblOrderFeedback.setText("Order Feedback :");
 
         jLabel1.setBackground(new java.awt.Color(204, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tamil MN", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 51, 51));
         jLabel1.setText("Order Work List");
 
@@ -163,20 +163,20 @@ public class OrderRequestJPanel extends javax.swing.JPanel {
                                 .addGap(54, 54, 54)
                                 .addComponent(btnOrderCmnt, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(349, 349, 349)
-                                .addComponent(jLabel1)))
-                        .addGap(0, 219, Short.MAX_VALUE)))
+                                .addGap(16, 16, 16)
+                                .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(292, 292, 292)
+                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(0, 226, Short.MAX_VALUE)))
                 .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
-                .addGap(77, 77, 77)
-                .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(46, 46, 46)
-                .addComponent(jLabel1)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1)
+                    .addComponent(btnBack))
                 .addGap(46, 46, 46)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -184,9 +184,7 @@ public class OrderRequestJPanel extends javax.swing.JPanel {
                     .addComponent(orderComment, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblOrderFeedback)
                     .addComponent(btnOrderCmnt))
-                .addGap(18, 18, 18)
-                .addComponent(btnBack)
-                .addContainerGap(90, Short.MAX_VALUE))
+                .addContainerGap(129, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

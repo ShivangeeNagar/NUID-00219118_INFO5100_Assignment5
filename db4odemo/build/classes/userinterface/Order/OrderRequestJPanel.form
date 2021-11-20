@@ -3,7 +3,7 @@
 <Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
   <Properties>
     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-      <Color blue="ff" green="ff" red="cc" type="rgb"/>
+      <Color blue="cc" green="ff" red="cc" type="rgb"/>
     </Property>
     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
       <Color blue="33" green="33" red="0" type="rgb"/>
@@ -38,19 +38,16 @@
                               <Component id="btnOrderCmnt" min="-2" pref="74" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="349" max="-2" attributes="0"/>
-                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Component id="btnBack" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="292" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" pref="181" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace min="0" pref="219" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="226" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
-              <Component id="btnBack" min="-2" pref="49" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -58,7 +55,10 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnBack" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
               <Component id="jScrollPane2" min="-2" pref="163" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
@@ -67,9 +67,7 @@
                   <Component id="lblOrderFeedback" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnOrderCmnt" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="btnBack" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="90" max="32767" attributes="0"/>
+              <EmptySpace pref="129" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -85,7 +83,7 @@
         <Component class="javax.swing.JTable" name="workRequestJTable">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="cc" type="rgb"/>
+              <Color blue="cc" green="ff" red="cc" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Ebrima" size="12" style="1"/>
@@ -178,7 +176,7 @@
           <Color blue="ff" green="ff" red="cc" type="rgb"/>
         </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Ebrima" size="12" style="1"/>
+          <Font name="Tamil MN" size="12" style="1"/>
         </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="33" green="33" red="0" type="rgb"/>
@@ -200,7 +198,7 @@
           <Color blue="ff" green="ff" red="cc" type="rgb"/>
         </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Ebrima" size="12" style="1"/>
+          <Font name="Tamil MN" size="12" style="1"/>
         </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="33" green="33" red="0" type="rgb"/>
@@ -214,7 +212,7 @@
           <Color blue="ff" green="ff" red="cc" type="rgb"/>
         </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Ebrima" size="18" style="1"/>
+          <Font name="Tamil MN" size="18" style="1"/>
         </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="33" green="33" red="0" type="rgb"/>
