@@ -74,7 +74,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 87, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -83,11 +83,11 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane.setLeftComponent(jPanel1);
 
-        jPanel2.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 204, 153));
         jPanel2.setForeground(new java.awt.Color(0, 51, 51));
 
         btnManageCustomers.setBackground(new java.awt.Color(204, 255, 255));
-        btnManageCustomers.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
+        btnManageCustomers.setFont(new java.awt.Font("Tamil MN", 1, 14)); // NOI18N
         btnManageCustomers.setForeground(new java.awt.Color(0, 51, 51));
         btnManageCustomers.setText("Manage All Customers");
         btnManageCustomers.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -98,7 +98,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         btnManageResta.setBackground(new java.awt.Color(204, 255, 255));
-        btnManageResta.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
+        btnManageResta.setFont(new java.awt.Font("Tamil MN", 1, 14)); // NOI18N
         btnManageResta.setForeground(new java.awt.Color(0, 51, 51));
         btnManageResta.setText("Manage Restaurants");
         btnManageResta.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -109,7 +109,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         btnManageDelivery.setBackground(new java.awt.Color(204, 255, 255));
-        btnManageDelivery.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
+        btnManageDelivery.setFont(new java.awt.Font("Tamil MN", 1, 14)); // NOI18N
         btnManageDelivery.setForeground(new java.awt.Color(0, 51, 51));
         btnManageDelivery.setText("Manage Deliveryman");
         btnManageDelivery.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -127,9 +127,8 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
                 .addGap(91, 91, 91)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(btnManageDelivery, javax.swing.GroupLayout.DEFAULT_SIZE, 257, Short.MAX_VALUE)
-                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(btnManageResta, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnManageCustomers, javax.swing.GroupLayout.DEFAULT_SIZE, 257, Short.MAX_VALUE)))
+                    .addComponent(btnManageResta, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnManageCustomers, javax.swing.GroupLayout.DEFAULT_SIZE, 257, Short.MAX_VALUE))
                 .addContainerGap(196, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(

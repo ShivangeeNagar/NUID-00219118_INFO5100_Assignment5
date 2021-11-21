@@ -59,35 +59,35 @@ public class AddDeliveryManJPanel extends javax.swing.JPanel {
         btnAddRest = new javax.swing.JButton();
         pbDeliPassStr = new javax.swing.JProgressBar();
 
-        setBackground(new java.awt.Color(204, 255, 255));
+        setBackground(new java.awt.Color(204, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblDeliName.setBackground(new java.awt.Color(204, 255, 255));
-        lblDeliName.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblDeliName.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblDeliName.setForeground(new java.awt.Color(0, 51, 51));
         lblDeliName.setText("Enter Full Name :");
         add(lblDeliName, new org.netbeans.lib.awtextra.AbsoluteConstraints(49, 56, -1, -1));
 
         lblDeliUserName.setBackground(new java.awt.Color(204, 255, 255));
-        lblDeliUserName.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblDeliUserName.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblDeliUserName.setForeground(new java.awt.Color(0, 51, 51));
         lblDeliUserName.setText("Set Username :");
         add(lblDeliUserName, new org.netbeans.lib.awtextra.AbsoluteConstraints(49, 85, -1, -1));
 
         lblDeliPass.setBackground(new java.awt.Color(204, 255, 255));
-        lblDeliPass.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblDeliPass.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblDeliPass.setForeground(new java.awt.Color(0, 51, 51));
         lblDeliPass.setText("Set Password :");
         add(lblDeliPass, new org.netbeans.lib.awtextra.AbsoluteConstraints(51, 114, -1, -1));
 
         lblDeliContact.setBackground(new java.awt.Color(204, 255, 255));
-        lblDeliContact.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblDeliContact.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblDeliContact.setForeground(new java.awt.Color(0, 51, 51));
         lblDeliContact.setText("Enter Contact No :");
         add(lblDeliContact, new org.netbeans.lib.awtextra.AbsoluteConstraints(51, 161, -1, -1));
 
         lblDeliEmail.setBackground(new java.awt.Color(204, 255, 255));
-        lblDeliEmail.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblDeliEmail.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblDeliEmail.setForeground(new java.awt.Color(0, 51, 51));
         lblDeliEmail.setText("Enter Email ID :");
         add(lblDeliEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(51, 190, -1, -1));
@@ -126,13 +126,13 @@ public class AddDeliveryManJPanel extends javax.swing.JPanel {
         add(txtDeliEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(212, 187, 126, -1));
 
         lblAddRest.setBackground(new java.awt.Color(204, 255, 255));
-        lblAddRest.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
+        lblAddRest.setFont(new java.awt.Font("Tamil MN", 1, 18)); // NOI18N
         lblAddRest.setForeground(new java.awt.Color(0, 51, 51));
         lblAddRest.setText("Add Delivery Person");
-        add(lblAddRest, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 10, -1, -1));
+        add(lblAddRest, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 20, -1, -1));
 
         btnBack.setBackground(new java.awt.Color(204, 255, 255));
-        btnBack.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnBack.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnBack.setForeground(new java.awt.Color(0, 51, 51));
         btnBack.setText("Back");
         btnBack.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -141,10 +141,10 @@ public class AddDeliveryManJPanel extends javax.swing.JPanel {
                 btnBackActionPerformed(evt);
             }
         });
-        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(61, 251, 80, 30));
+        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 260, 80, 30));
 
         btnAddRest.setBackground(new java.awt.Color(204, 255, 255));
-        btnAddRest.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnAddRest.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnAddRest.setForeground(new java.awt.Color(0, 51, 51));
         btnAddRest.setText("Add");
         btnAddRest.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -153,7 +153,7 @@ public class AddDeliveryManJPanel extends javax.swing.JPanel {
                 btnAddRestActionPerformed(evt);
             }
         });
-        add(btnAddRest, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 250, 80, 30));
+        add(btnAddRest, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 220, 80, 30));
 
         pbDeliPassStr.setBackground(new java.awt.Color(204, 255, 255));
         pbDeliPassStr.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N

@@ -98,7 +98,7 @@ private void disableEdit(){
         lblCustID = new javax.swing.JLabel();
         txtCustID = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(204, 255, 255));
+        setBackground(new java.awt.Color(204, 255, 204));
 
         lblCustPhoto.setBackground(new java.awt.Color(204, 255, 255));
         lblCustPhoto.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
@@ -107,7 +107,7 @@ private void disableEdit(){
         lblCustPhoto.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         btnCustPhotoUpload.setBackground(new java.awt.Color(204, 255, 255));
-        btnCustPhotoUpload.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
+        btnCustPhotoUpload.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnCustPhotoUpload.setForeground(new java.awt.Color(0, 51, 51));
         btnCustPhotoUpload.setText("Upload");
         btnCustPhotoUpload.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -121,7 +121,7 @@ private void disableEdit(){
         txtCustContact.setForeground(new java.awt.Color(0, 51, 51));
 
         lblCustEmail.setBackground(new java.awt.Color(204, 255, 255));
-        lblCustEmail.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblCustEmail.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblCustEmail.setForeground(new java.awt.Color(0, 51, 51));
         lblCustEmail.setText("Email ID:");
 
@@ -129,17 +129,17 @@ private void disableEdit(){
         txtCustEmail.setForeground(new java.awt.Color(0, 51, 51));
 
         lblViewUpdateCust.setBackground(new java.awt.Color(204, 255, 255));
-        lblViewUpdateCust.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
+        lblViewUpdateCust.setFont(new java.awt.Font("Tamil MN", 1, 18)); // NOI18N
         lblViewUpdateCust.setForeground(new java.awt.Color(0, 51, 51));
         lblViewUpdateCust.setText("Customer Details");
 
         lblCustAddr.setBackground(new java.awt.Color(204, 255, 255));
-        lblCustAddr.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblCustAddr.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblCustAddr.setForeground(new java.awt.Color(0, 51, 51));
         lblCustAddr.setText("Street Address :");
 
         lblCustName.setBackground(new java.awt.Color(204, 255, 255));
-        lblCustName.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblCustName.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblCustName.setForeground(new java.awt.Color(0, 51, 51));
         lblCustName.setText("Full Name :");
 
@@ -147,7 +147,7 @@ private void disableEdit(){
         txtCustAddr.setForeground(new java.awt.Color(0, 51, 51));
 
         lblCustZip.setBackground(new java.awt.Color(204, 255, 255));
-        lblCustZip.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblCustZip.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblCustZip.setForeground(new java.awt.Color(0, 51, 51));
         lblCustZip.setText("Zip Code :");
 
@@ -155,7 +155,7 @@ private void disableEdit(){
         txtCustZip.setForeground(new java.awt.Color(0, 51, 51));
 
         lblCustContact.setBackground(new java.awt.Color(204, 255, 255));
-        lblCustContact.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblCustContact.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblCustContact.setForeground(new java.awt.Color(0, 51, 51));
         lblCustContact.setText("Contact No :");
 
@@ -163,7 +163,7 @@ private void disableEdit(){
         txtCustName.setForeground(new java.awt.Color(0, 51, 51));
 
         btnBack1.setBackground(new java.awt.Color(204, 255, 255));
-        btnBack1.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnBack1.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnBack1.setForeground(new java.awt.Color(0, 51, 51));
         btnBack1.setText("Back");
         btnBack1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -174,7 +174,7 @@ private void disableEdit(){
         });
 
         btnSaveChanges.setBackground(new java.awt.Color(204, 255, 255));
-        btnSaveChanges.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnSaveChanges.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnSaveChanges.setForeground(new java.awt.Color(0, 51, 51));
         btnSaveChanges.setText("Save Changes");
         btnSaveChanges.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -185,7 +185,7 @@ private void disableEdit(){
         });
 
         btnEnableUpdate.setBackground(new java.awt.Color(204, 255, 255));
-        btnEnableUpdate.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnEnableUpdate.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnEnableUpdate.setForeground(new java.awt.Color(0, 51, 51));
         btnEnableUpdate.setText("Enable Update");
         btnEnableUpdate.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -196,7 +196,7 @@ private void disableEdit(){
         });
 
         lblCustID.setBackground(new java.awt.Color(204, 255, 255));
-        lblCustID.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblCustID.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblCustID.setForeground(new java.awt.Color(0, 51, 51));
         lblCustID.setText("Customer ID :");
 
@@ -208,58 +208,61 @@ private void disableEdit(){
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(lblViewUpdateCust)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addGap(110, 110, 110)
-                                    .addComponent(lblCustEmail))
-                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                    .addContainerGap()
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(lblCustID, javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(lblCustName, javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(lblCustContact, javax.swing.GroupLayout.Alignment.TRAILING))))
-                            .addGap(42, 42, 42)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(txtCustID, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(txtCustName, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(txtCustContact, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(txtCustEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(70, 70, 70)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(btnBack1, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(46, 46, 46)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                        .addComponent(btnEnableUpdate, javax.swing.GroupLayout.DEFAULT_SIZE, 110, Short.MAX_VALUE)
-                                        .addComponent(btnSaveChanges, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                                .addGroup(layout.createSequentialGroup()
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(lblCustAddr)
-                                        .addComponent(lblCustZip))
-                                    .addGap(41, 41, 41)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(txtCustAddr, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(txtCustZip, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(53, 53, 53)
-                        .addComponent(btnCustPhotoUpload, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(110, 110, 110)
+                                        .addComponent(lblCustEmail))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                        .addContainerGap()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(btnBack1, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addComponent(lblCustID, javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addComponent(lblCustName, javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addComponent(lblCustContact, javax.swing.GroupLayout.Alignment.TRAILING)))))
+                                .addGap(42, 42, 42)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtCustID, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txtCustName, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txtCustContact, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txtCustEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(70, 70, 70)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(btnEnableUpdate, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(lblCustAddr)
+                                            .addComponent(lblCustZip))
+                                        .addGap(41, 41, 41)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(txtCustAddr, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(txtCustZip, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(btnSaveChanges, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(53, 53, 53)
+                                .addComponent(btnCustPhotoUpload, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(33, 33, 33)
+                                .addComponent(lblCustPhoto, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addComponent(lblCustPhoto, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(76, Short.MAX_VALUE))
+                        .addGap(191, 191, 191)
+                        .addComponent(lblViewUpdateCust)))
+                .addContainerGap(82, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(36, 36, 36)
+                .addGap(9, 9, 9)
+                .addComponent(btnBack1)
+                .addGap(18, 18, 18)
                 .addComponent(lblViewUpdateCust)
-                .addGap(30, 30, 30)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -292,15 +295,10 @@ private void disableEdit(){
                         .addComponent(lblCustPhoto, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(11, 11, 11)
                         .addComponent(btnCustPhotoUpload, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(17, 17, 17)
+                .addGap(16, 16, 16)
                 .addComponent(btnEnableUpdate, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(17, 17, 17)
-                        .addComponent(btnSaveChanges, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnBack1)))
+                .addGap(18, 18, 18)
+                .addComponent(btnSaveChanges, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 83, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents

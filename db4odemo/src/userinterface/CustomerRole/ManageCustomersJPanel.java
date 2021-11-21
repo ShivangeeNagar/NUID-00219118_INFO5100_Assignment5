@@ -70,14 +70,14 @@ public class ManageCustomersJPanel extends javax.swing.JPanel {
         btnAddCust = new javax.swing.JButton();
         btnBack = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 255, 255));
+        setBackground(new java.awt.Color(204, 255, 204));
 
         jLabel1.setBackground(new java.awt.Color(204, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tamil MN", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 51, 51));
         jLabel1.setText("Customers Database");
 
-        JTblCustomers.setBackground(new java.awt.Color(204, 255, 255));
+        JTblCustomers.setBackground(new java.awt.Color(204, 255, 204));
         JTblCustomers.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
         JTblCustomers.setForeground(new java.awt.Color(0, 51, 51));
         JTblCustomers.setModel(new javax.swing.table.DefaultTableModel(
@@ -102,7 +102,7 @@ public class ManageCustomersJPanel extends javax.swing.JPanel {
         jScrollPane1.setViewportView(JTblCustomers);
 
         btnViewCust.setBackground(new java.awt.Color(204, 255, 255));
-        btnViewCust.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnViewCust.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnViewCust.setForeground(new java.awt.Color(0, 51, 51));
         btnViewCust.setText("View Customer");
         btnViewCust.addActionListener(new java.awt.event.ActionListener() {
@@ -112,7 +112,7 @@ public class ManageCustomersJPanel extends javax.swing.JPanel {
         });
 
         btnDelCust.setBackground(new java.awt.Color(204, 255, 255));
-        btnDelCust.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnDelCust.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnDelCust.setForeground(new java.awt.Color(0, 51, 51));
         btnDelCust.setText("Delete Customer");
         btnDelCust.addActionListener(new java.awt.event.ActionListener() {
@@ -122,7 +122,7 @@ public class ManageCustomersJPanel extends javax.swing.JPanel {
         });
 
         btnAddCust.setBackground(new java.awt.Color(204, 255, 255));
-        btnAddCust.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnAddCust.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnAddCust.setForeground(new java.awt.Color(0, 51, 51));
         btnAddCust.setText("Add Customer");
         btnAddCust.addActionListener(new java.awt.event.ActionListener() {
@@ -146,39 +146,36 @@ public class ManageCustomersJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGap(102, 102, 102)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(285, 285, 285)
-                        .addComponent(jLabel1))
+                        .addComponent(btnAddCust, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(64, 64, 64)
+                        .addComponent(btnViewCust)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnDelCust, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(102, 102, 102)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 539, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(94, 94, 94)
                         .addComponent(btnBack)
-                        .addGap(127, 127, 127)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(btnViewCust, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnAddCust, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(98, 98, 98)
-                        .addComponent(btnDelCust)))
-                .addContainerGap(305, Short.MAX_VALUE))
+                        .addGap(110, 110, 110)
+                        .addComponent(jLabel1))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 539, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(345, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addComponent(jLabel1)
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1)
+                    .addComponent(btnBack))
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 249, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(31, 31, 31)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnBack)
                     .addComponent(btnAddCust)
-                    .addComponent(btnDelCust))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnViewCust)
-                .addContainerGap(84, Short.MAX_VALUE))
+                    .addComponent(btnDelCust)
+                    .addComponent(btnViewCust))
+                .addContainerGap(114, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

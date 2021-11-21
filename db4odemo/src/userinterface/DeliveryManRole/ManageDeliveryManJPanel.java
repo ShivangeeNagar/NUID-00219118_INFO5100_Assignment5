@@ -74,14 +74,14 @@ public void populateDeliveryManTable() {
         btnViewDeli = new javax.swing.JButton();
         btnDelDeli = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 255, 255));
+        setBackground(new java.awt.Color(204, 255, 204));
 
         lbl_DeliDetails.setBackground(new java.awt.Color(204, 255, 255));
-        lbl_DeliDetails.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
+        lbl_DeliDetails.setFont(new java.awt.Font("Tamil MN", 1, 18)); // NOI18N
         lbl_DeliDetails.setForeground(new java.awt.Color(0, 51, 51));
-        lbl_DeliDetails.setText("Delivery Men Database");
+        lbl_DeliDetails.setText("Delivery Man Database");
 
-        JTblDeliveyMan.setBackground(new java.awt.Color(204, 255, 255));
+        JTblDeliveyMan.setBackground(new java.awt.Color(204, 255, 204));
         JTblDeliveyMan.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
         JTblDeliveyMan.setForeground(new java.awt.Color(0, 51, 51));
         JTblDeliveyMan.setModel(new javax.swing.table.DefaultTableModel(
@@ -106,7 +106,7 @@ public void populateDeliveryManTable() {
         jScrollPane1.setViewportView(JTblDeliveyMan);
 
         btnBack.setBackground(new java.awt.Color(204, 255, 255));
-        btnBack.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnBack.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnBack.setForeground(new java.awt.Color(0, 51, 51));
         btnBack.setText("Back");
         btnBack.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -128,7 +128,7 @@ public void populateDeliveryManTable() {
         });
 
         btnViewDeli.setBackground(new java.awt.Color(204, 255, 255));
-        btnViewDeli.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnViewDeli.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnViewDeli.setForeground(new java.awt.Color(0, 51, 51));
         btnViewDeli.setText("View Delivery Man");
         btnViewDeli.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -139,7 +139,7 @@ public void populateDeliveryManTable() {
         });
 
         btnDelDeli.setBackground(new java.awt.Color(204, 255, 255));
-        btnDelDeli.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnDelDeli.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnDelDeli.setForeground(new java.awt.Color(0, 51, 51));
         btnDelDeli.setText("Delete Delivery Man");
         btnDelDeli.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -154,44 +154,37 @@ public void populateDeliveryManTable() {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addGap(54, 54, 54)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(237, 237, 237)
+                        .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(121, 121, 121)
                         .addComponent(lbl_DeliDetails))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(btnBack)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(btnViewDeli, javax.swing.GroupLayout.DEFAULT_SIZE, 148, Short.MAX_VALUE)
-                                    .addComponent(btnAddDeli, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                .addGap(55, 55, 55)
-                                .addComponent(btnDelDeli, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 539, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(btnAddDeli, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(53, 53, 53)
+                            .addComponent(btnViewDeli, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnDelDeli, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 539, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(90, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(20, 20, 20)
-                .addComponent(lbl_DeliDetails)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lbl_DeliDetails)
+                    .addComponent(btnBack))
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 249, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addComponent(btnAddDeli, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnViewDeli, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(48, 48, 48)
-                        .addComponent(btnDelDeli, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(60, 60, 60)
-                        .addComponent(btnBack)))
-                .addContainerGap(48, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnAddDeli, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnViewDeli, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnDelDeli, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(107, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

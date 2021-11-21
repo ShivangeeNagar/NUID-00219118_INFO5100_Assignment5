@@ -68,14 +68,14 @@ public class AddRestaurantJPanel extends javax.swing.JPanel {
         txtMgrName = new javax.swing.JTextField();
         lblMgrName = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 255, 255));
+        setBackground(new java.awt.Color(204, 255, 204));
         setForeground(new java.awt.Color(0, 51, 51));
 
         txtRestEmail.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
         txtRestEmail.setForeground(new java.awt.Color(0, 51, 51));
 
         lblRestEmail.setBackground(new java.awt.Color(204, 255, 255));
-        lblRestEmail.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblRestEmail.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblRestEmail.setForeground(new java.awt.Color(0, 51, 51));
         lblRestEmail.setText("Enter Email ID :");
 
@@ -102,12 +102,12 @@ public class AddRestaurantJPanel extends javax.swing.JPanel {
         txtRestName.setForeground(new java.awt.Color(0, 51, 51));
 
         lblRestContact.setBackground(new java.awt.Color(204, 255, 255));
-        lblRestContact.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblRestContact.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblRestContact.setForeground(new java.awt.Color(0, 51, 51));
         lblRestContact.setText("Enter Contact No :");
 
         lblRestPass.setBackground(new java.awt.Color(204, 255, 255));
-        lblRestPass.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblRestPass.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblRestPass.setForeground(new java.awt.Color(0, 51, 51));
         lblRestPass.setText("Set Password :");
 
@@ -115,17 +115,17 @@ public class AddRestaurantJPanel extends javax.swing.JPanel {
         txtRestZip.setForeground(new java.awt.Color(0, 51, 51));
 
         lblRestUserName.setBackground(new java.awt.Color(204, 255, 255));
-        lblRestUserName.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblRestUserName.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblRestUserName.setForeground(new java.awt.Color(0, 51, 51));
         lblRestUserName.setText("Set Username :");
 
         lblRestZip.setBackground(new java.awt.Color(204, 255, 255));
-        lblRestZip.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblRestZip.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblRestZip.setForeground(new java.awt.Color(0, 51, 51));
         lblRestZip.setText("Enter Zip Code :");
 
         lblRestName.setBackground(new java.awt.Color(204, 255, 255));
-        lblRestName.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblRestName.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblRestName.setForeground(new java.awt.Color(0, 51, 51));
         lblRestName.setText("Enter Restaurant Name :");
 
@@ -133,12 +133,12 @@ public class AddRestaurantJPanel extends javax.swing.JPanel {
         txtRestAddr.setForeground(new java.awt.Color(0, 51, 51));
 
         lblAddRest.setBackground(new java.awt.Color(204, 255, 255));
-        lblAddRest.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
+        lblAddRest.setFont(new java.awt.Font("Tamil MN", 1, 18)); // NOI18N
         lblAddRest.setForeground(new java.awt.Color(0, 51, 51));
         lblAddRest.setText("Add Restaurant");
 
         lblRestAddr.setBackground(new java.awt.Color(204, 255, 255));
-        lblRestAddr.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblRestAddr.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblRestAddr.setForeground(new java.awt.Color(0, 51, 51));
         lblRestAddr.setText("Enter Street Address :");
 
@@ -157,7 +157,7 @@ public class AddRestaurantJPanel extends javax.swing.JPanel {
         txtRestContact.setForeground(new java.awt.Color(0, 51, 51));
 
         btnAddRest.setBackground(new java.awt.Color(204, 255, 255));
-        btnAddRest.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnAddRest.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnAddRest.setForeground(new java.awt.Color(0, 51, 51));
         btnAddRest.setText("Add");
         btnAddRest.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -168,7 +168,7 @@ public class AddRestaurantJPanel extends javax.swing.JPanel {
         });
 
         btnBack.setBackground(new java.awt.Color(204, 255, 255));
-        btnBack.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnBack.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnBack.setForeground(new java.awt.Color(0, 51, 51));
         btnBack.setText("Back");
         btnBack.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -182,7 +182,7 @@ public class AddRestaurantJPanel extends javax.swing.JPanel {
         txtMgrName.setForeground(new java.awt.Color(0, 51, 51));
 
         lblMgrName.setBackground(new java.awt.Color(204, 255, 255));
-        lblMgrName.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblMgrName.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblMgrName.setForeground(new java.awt.Color(0, 51, 51));
         lblMgrName.setText("Manager's Name :");
 
@@ -206,32 +206,41 @@ public class AddRestaurantJPanel extends javax.swing.JPanel {
                                     .addComponent(lblRestAddr)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                         .addComponent(lblMgrName)
-                                        .addComponent(lblRestZip, javax.swing.GroupLayout.Alignment.LEADING))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(btnAddRest, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                        .addGap(47, 47, 47)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(txtRestAddr)
-                            .addComponent(pbRestPassStr, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                            .addComponent(txtRestUserName, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtRestName, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtRestContact, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtRestEmail, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtRestZip)
-                            .addComponent(pwRestPass, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtMgrName, javax.swing.GroupLayout.Alignment.LEADING)))
+                                        .addComponent(lblRestZip, javax.swing.GroupLayout.Alignment.LEADING)))))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(47, 47, 47)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(txtRestAddr)
+                                    .addComponent(pbRestPassStr, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                                    .addComponent(txtRestUserName, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtRestName, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtRestContact, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtRestEmail, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtRestZip)
+                                    .addComponent(pwRestPass, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txtMgrName, javax.swing.GroupLayout.Alignment.LEADING)))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAddRest, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(34, 34, 34))))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(169, 169, 169)
+                        .addGap(27, 27, 27)
+                        .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(80, 80, 80)
                         .addComponent(lblAddRest)))
-                .addContainerGap(74, Short.MAX_VALUE))
+                .addContainerGap(88, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(36, 36, 36)
-                .addComponent(lblAddRest)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(36, 36, 36)
+                        .addComponent(lblAddRest))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(btnBack)))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblRestName)
@@ -267,9 +276,7 @@ public class AddRestaurantJPanel extends javax.swing.JPanel {
                     .addComponent(lblMgrName)
                     .addComponent(txtMgrName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnAddRest)
-                    .addComponent(btnBack))
+                .addComponent(btnAddRest)
                 .addContainerGap(52, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents

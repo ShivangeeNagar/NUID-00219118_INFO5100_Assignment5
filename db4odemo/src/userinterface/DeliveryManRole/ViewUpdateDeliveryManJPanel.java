@@ -68,15 +68,15 @@ public class ViewUpdateDeliveryManJPanel extends javax.swing.JPanel {
         btnEnableUpdate = new javax.swing.JButton();
         btnSaveChanges = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 255, 255));
+        setBackground(new java.awt.Color(204, 255, 204));
 
         lblDeliEmail.setBackground(new java.awt.Color(204, 255, 255));
-        lblDeliEmail.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblDeliEmail.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblDeliEmail.setForeground(new java.awt.Color(0, 51, 51));
         lblDeliEmail.setText("Email ID :");
 
         lblDeliContact.setBackground(new java.awt.Color(204, 255, 255));
-        lblDeliContact.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblDeliContact.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblDeliContact.setForeground(new java.awt.Color(0, 51, 51));
         lblDeliContact.setText("Contact No :");
 
@@ -90,12 +90,12 @@ public class ViewUpdateDeliveryManJPanel extends javax.swing.JPanel {
         txtDeliNo.setForeground(new java.awt.Color(0, 51, 51));
 
         lblDeliName.setBackground(new java.awt.Color(204, 255, 255));
-        lblDeliName.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblDeliName.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblDeliName.setForeground(new java.awt.Color(0, 51, 51));
         lblDeliName.setText("Full Name :");
 
         lblDeliNo.setBackground(new java.awt.Color(204, 255, 255));
-        lblDeliNo.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblDeliNo.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblDeliNo.setForeground(new java.awt.Color(0, 51, 51));
         lblDeliNo.setText("Username :");
 
@@ -103,12 +103,12 @@ public class ViewUpdateDeliveryManJPanel extends javax.swing.JPanel {
         txtDeliEmail.setForeground(new java.awt.Color(0, 51, 51));
 
         lblAddDeli.setBackground(new java.awt.Color(204, 255, 255));
-        lblAddDeli.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
+        lblAddDeli.setFont(new java.awt.Font("Tamil MN", 1, 18)); // NOI18N
         lblAddDeli.setForeground(new java.awt.Color(0, 51, 51));
         lblAddDeli.setText("Add Delivery Person");
 
         btnBack1.setBackground(new java.awt.Color(204, 255, 255));
-        btnBack1.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnBack1.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnBack1.setForeground(new java.awt.Color(0, 51, 51));
         btnBack1.setText("Back");
         btnBack1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -119,9 +119,9 @@ public class ViewUpdateDeliveryManJPanel extends javax.swing.JPanel {
         });
 
         btnEnableUpdate.setBackground(new java.awt.Color(204, 255, 255));
-        btnEnableUpdate.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnEnableUpdate.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnEnableUpdate.setForeground(new java.awt.Color(0, 51, 51));
-        btnEnableUpdate.setText("Enable Update");
+        btnEnableUpdate.setText("Update");
         btnEnableUpdate.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnEnableUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -130,9 +130,9 @@ public class ViewUpdateDeliveryManJPanel extends javax.swing.JPanel {
         });
 
         btnSaveChanges.setBackground(new java.awt.Color(204, 255, 255));
-        btnSaveChanges.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnSaveChanges.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnSaveChanges.setForeground(new java.awt.Color(0, 51, 51));
-        btnSaveChanges.setText("Save Changes");
+        btnSaveChanges.setText("Save ");
         btnSaveChanges.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnSaveChanges.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -150,17 +150,12 @@ public class ViewUpdateDeliveryManJPanel extends javax.swing.JPanel {
                         .addGap(113, 113, 113)
                         .addComponent(lblAddDeli))
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(89, 89, 89)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(lblDeliEmail)
-                                    .addComponent(lblDeliName)
-                                    .addComponent(lblDeliContact)
-                                    .addComponent(lblDeliNo)))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(30, 30, 30)
-                                .addComponent(btnBack1)))
+                        .addGap(89, 89, 89)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(lblDeliEmail)
+                            .addComponent(lblDeliName)
+                            .addComponent(lblDeliContact)
+                            .addComponent(lblDeliNo))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(txtDeliEmail, javax.swing.GroupLayout.DEFAULT_SIZE, 127, Short.MAX_VALUE)
@@ -168,13 +163,18 @@ public class ViewUpdateDeliveryManJPanel extends javax.swing.JPanel {
                             .addComponent(txtDeliContact)
                             .addComponent(txtDeliNo, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnSaveChanges, javax.swing.GroupLayout.DEFAULT_SIZE, 127, Short.MAX_VALUE)
-                            .addComponent(btnEnableUpdate, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addContainerGap(81, Short.MAX_VALUE))
+                            .addComponent(btnEnableUpdate, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(25, 25, 25)
+                        .addComponent(btnBack1, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(85, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(47, 47, 47)
+                .addGap(20, 20, 20)
+                .addComponent(btnBack1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lblAddDeli)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -198,9 +198,7 @@ public class ViewUpdateDeliveryManJPanel extends javax.swing.JPanel {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(txtDeliContact, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lblDeliContact))
-                        .addGap(42, 42, 42)
-                        .addComponent(btnBack1)))
+                            .addComponent(lblDeliContact))))
                 .addContainerGap(63, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents

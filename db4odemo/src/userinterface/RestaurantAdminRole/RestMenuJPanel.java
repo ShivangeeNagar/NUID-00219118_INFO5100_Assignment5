@@ -75,16 +75,16 @@ public class RestMenuJPanel extends javax.swing.JPanel {
         btnEditItem = new javax.swing.JButton();
         btnDeleteItem = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 255, 255));
+        setBackground(new java.awt.Color(204, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblRestaurantMenu.setBackground(new java.awt.Color(204, 255, 255));
-        lblRestaurantMenu.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
+        lblRestaurantMenu.setFont(new java.awt.Font("Tamil MN", 1, 18)); // NOI18N
         lblRestaurantMenu.setForeground(new java.awt.Color(0, 51, 51));
         lblRestaurantMenu.setText("Restaurant Menu");
-        add(lblRestaurantMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 27, -1, -1));
+        add(lblRestaurantMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 30, -1, -1));
 
-        tblResMenu.setBackground(new java.awt.Color(204, 255, 255));
+        tblResMenu.setBackground(new java.awt.Color(204, 255, 204));
         tblResMenu.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
         tblResMenu.setForeground(new java.awt.Color(0, 51, 51));
         tblResMenu.setModel(new javax.swing.table.DefaultTableModel(
@@ -108,10 +108,10 @@ public class RestMenuJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblResMenu);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(27, 77, 505, 204));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(35, 80, 610, 204));
 
         btnBack.setBackground(new java.awt.Color(204, 255, 255));
-        btnBack.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnBack.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnBack.setForeground(new java.awt.Color(0, 51, 51));
         btnBack.setText("Back");
         btnBack.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -120,10 +120,10 @@ public class RestMenuJPanel extends javax.swing.JPanel {
                 btnBackActionPerformed(evt);
             }
         });
-        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(67, 327, 56, -1));
+        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 56, -1));
 
         btnAddItem.setBackground(new java.awt.Color(204, 255, 255));
-        btnAddItem.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnAddItem.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnAddItem.setForeground(new java.awt.Color(0, 51, 51));
         btnAddItem.setText("Add Order Item");
         btnAddItem.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -132,10 +132,10 @@ public class RestMenuJPanel extends javax.swing.JPanel {
                 btnAddItemActionPerformed(evt);
             }
         });
-        add(btnAddItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(366, 299, 123, -1));
+        add(btnAddItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 300, 130, -1));
 
         btnEditItem.setBackground(new java.awt.Color(204, 255, 255));
-        btnEditItem.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnEditItem.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnEditItem.setForeground(new java.awt.Color(0, 51, 51));
         btnEditItem.setText("Edit Order Item");
         btnEditItem.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -144,10 +144,10 @@ public class RestMenuJPanel extends javax.swing.JPanel {
                 btnEditItemActionPerformed(evt);
             }
         });
-        add(btnEditItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(366, 333, 123, -1));
+        add(btnEditItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 300, 123, -1));
 
         btnDeleteItem.setBackground(new java.awt.Color(204, 255, 255));
-        btnDeleteItem.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnDeleteItem.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnDeleteItem.setForeground(new java.awt.Color(0, 51, 51));
         btnDeleteItem.setText("Delete Order Item");
         btnDeleteItem.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -156,7 +156,7 @@ public class RestMenuJPanel extends javax.swing.JPanel {
                 btnDeleteItemActionPerformed(evt);
             }
         });
-        add(btnDeleteItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(366, 368, 123, -1));
+        add(btnDeleteItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 300, 123, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed

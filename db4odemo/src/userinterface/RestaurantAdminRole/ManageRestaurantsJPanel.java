@@ -72,15 +72,15 @@ public class ManageRestaurantsJPanel extends javax.swing.JPanel {
         btnViewRest = new javax.swing.JButton();
         btnDelRest = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 255, 255));
+        setBackground(new java.awt.Color(204, 255, 204));
         setForeground(new java.awt.Color(0, 51, 51));
 
         lbl_RestDetails.setBackground(new java.awt.Color(204, 255, 255));
-        lbl_RestDetails.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
+        lbl_RestDetails.setFont(new java.awt.Font("Tamil MN", 1, 18)); // NOI18N
         lbl_RestDetails.setForeground(new java.awt.Color(0, 51, 51));
         lbl_RestDetails.setText("Restaurants Database");
 
-        JTblRestaurants.setBackground(new java.awt.Color(204, 255, 255));
+        JTblRestaurants.setBackground(new java.awt.Color(204, 255, 204));
         JTblRestaurants.setForeground(new java.awt.Color(0, 51, 51));
         JTblRestaurants.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -115,7 +115,7 @@ public class ManageRestaurantsJPanel extends javax.swing.JPanel {
         });
 
         btnAddRest.setBackground(new java.awt.Color(204, 255, 255));
-        btnAddRest.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnAddRest.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnAddRest.setForeground(new java.awt.Color(0, 51, 51));
         btnAddRest.setText("Add Restaurant");
         btnAddRest.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -126,7 +126,7 @@ public class ManageRestaurantsJPanel extends javax.swing.JPanel {
         });
 
         btnViewRest.setBackground(new java.awt.Color(204, 255, 255));
-        btnViewRest.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnViewRest.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnViewRest.setForeground(new java.awt.Color(0, 51, 51));
         btnViewRest.setText("View Restaurant");
         btnViewRest.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -137,7 +137,7 @@ public class ManageRestaurantsJPanel extends javax.swing.JPanel {
         });
 
         btnDelRest.setBackground(new java.awt.Color(204, 255, 255));
-        btnDelRest.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnDelRest.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnDelRest.setForeground(new java.awt.Color(0, 51, 51));
         btnDelRest.setText("Delete Restaurant");
         btnDelRest.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -152,44 +152,37 @@ public class ManageRestaurantsJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addGap(54, 54, 54)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(237, 237, 237)
+                        .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(123, 123, 123)
                         .addComponent(lbl_RestDetails))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(122, 122, 122)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(btnAddRest, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(btnViewRest, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(71, 71, 71)
-                                .addComponent(btnDelRest, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 539, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(btnAddRest, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnViewRest, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(88, 88, 88)
+                            .addComponent(btnDelRest, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 539, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(75, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(20, 20, 20)
-                .addComponent(lbl_RestDetails)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lbl_RestDetails)
+                    .addComponent(btnBack))
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 249, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(btnAddRest, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnBack))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnViewRest, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(31, 31, 31)
-                        .addComponent(btnDelRest, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(64, Short.MAX_VALUE))))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnViewRest, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnDelRest, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnAddRest, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(74, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
