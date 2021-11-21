@@ -93,7 +93,7 @@ private void disableEdit(){
         btnEnableUpdate = new javax.swing.JButton();
         btnSaveChanges = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 255, 255));
+        setBackground(new java.awt.Color(204, 255, 204));
         setForeground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -102,7 +102,7 @@ private void disableEdit(){
         add(txtRestEmail1, new org.netbeans.lib.awtextra.AbsoluteConstraints(236, 227, 127, -1));
 
         lblRestEmail1.setBackground(new java.awt.Color(204, 255, 255));
-        lblRestEmail1.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblRestEmail1.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblRestEmail1.setForeground(new java.awt.Color(0, 51, 51));
         lblRestEmail1.setText(" Email ID :");
         add(lblRestEmail1, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 230, -1, -1));
@@ -112,7 +112,7 @@ private void disableEdit(){
         add(txtRestName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(236, 121, 127, -1));
 
         lblRestContact1.setBackground(new java.awt.Color(204, 255, 255));
-        lblRestContact1.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblRestContact1.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblRestContact1.setForeground(new java.awt.Color(0, 51, 51));
         lblRestContact1.setText("Contact No :");
         add(lblRestContact1, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 201, -1, -1));
@@ -122,13 +122,13 @@ private void disableEdit(){
         add(txtRestZip1, new org.netbeans.lib.awtextra.AbsoluteConstraints(236, 285, 127, -1));
 
         lblRestZip1.setBackground(new java.awt.Color(204, 255, 255));
-        lblRestZip1.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblRestZip1.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblRestZip1.setForeground(new java.awt.Color(0, 51, 51));
         lblRestZip1.setText("Zip Code :");
         add(lblRestZip1, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 288, -1, -1));
 
         lblRestName1.setBackground(new java.awt.Color(204, 255, 255));
-        lblRestName1.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblRestName1.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblRestName1.setForeground(new java.awt.Color(0, 51, 51));
         lblRestName1.setText("Restaurant Name :");
         add(lblRestName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 124, -1, -1));
@@ -138,13 +138,13 @@ private void disableEdit(){
         add(txtRestAddr1, new org.netbeans.lib.awtextra.AbsoluteConstraints(236, 256, 127, -1));
 
         lblAddRest1.setBackground(new java.awt.Color(204, 255, 255));
-        lblAddRest1.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
+        lblAddRest1.setFont(new java.awt.Font("Tamil MN", 1, 18)); // NOI18N
         lblAddRest1.setForeground(new java.awt.Color(0, 51, 51));
         lblAddRest1.setText("Restaurant Details");
         add(lblAddRest1, new org.netbeans.lib.awtextra.AbsoluteConstraints(157, 33, -1, -1));
 
         lblRestAddr1.setBackground(new java.awt.Color(204, 255, 255));
-        lblRestAddr1.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblRestAddr1.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblRestAddr1.setForeground(new java.awt.Color(0, 51, 51));
         lblRestAddr1.setText("Street Address :");
         add(lblRestAddr1, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 259, -1, -1));
@@ -154,7 +154,7 @@ private void disableEdit(){
         add(txtRestContact1, new org.netbeans.lib.awtextra.AbsoluteConstraints(236, 198, 127, -1));
 
         btnBack.setBackground(new java.awt.Color(204, 255, 255));
-        btnBack.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnBack.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnBack.setForeground(new java.awt.Color(0, 51, 51));
         btnBack.setText("Back");
         btnBack.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -163,14 +163,14 @@ private void disableEdit(){
                 btnBackActionPerformed(evt);
             }
         });
-        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 372, 48, -1));
+        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 48, -1));
 
         txtMgrName1.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
         txtMgrName1.setForeground(new java.awt.Color(0, 51, 51));
         add(txtMgrName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(236, 314, 127, -1));
 
         lblMgrName1.setBackground(new java.awt.Color(204, 255, 255));
-        lblMgrName1.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblMgrName1.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblMgrName1.setForeground(new java.awt.Color(0, 51, 51));
         lblMgrName1.setText("Manager's Name :");
         add(lblMgrName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 314, -1, -1));
@@ -180,15 +180,15 @@ private void disableEdit(){
         add(txtRestNo, new org.netbeans.lib.awtextra.AbsoluteConstraints(236, 92, 127, -1));
 
         lblRestNo.setBackground(new java.awt.Color(204, 255, 255));
-        lblRestNo.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        lblRestNo.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         lblRestNo.setForeground(new java.awt.Color(0, 51, 51));
         lblRestNo.setText("Restaurant No :");
         add(lblRestNo, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 95, -1, -1));
 
         btnEnableUpdate.setBackground(new java.awt.Color(204, 255, 255));
-        btnEnableUpdate.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnEnableUpdate.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnEnableUpdate.setForeground(new java.awt.Color(0, 51, 51));
-        btnEnableUpdate.setText("Enable Update");
+        btnEnableUpdate.setText("Update");
         btnEnableUpdate.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnEnableUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -198,9 +198,9 @@ private void disableEdit(){
         add(btnEnableUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(249, 354, 106, -1));
 
         btnSaveChanges.setBackground(new java.awt.Color(204, 255, 255));
-        btnSaveChanges.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnSaveChanges.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnSaveChanges.setForeground(new java.awt.Color(0, 51, 51));
-        btnSaveChanges.setText("Save Changes");
+        btnSaveChanges.setText("Save ");
         btnSaveChanges.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnSaveChanges.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
