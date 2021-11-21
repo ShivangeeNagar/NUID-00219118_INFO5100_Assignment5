@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
 
 /**
  *
- * @author shivanginagar
+ * @author MyPC1
  */
 public class EcoSystem extends Organization{
     

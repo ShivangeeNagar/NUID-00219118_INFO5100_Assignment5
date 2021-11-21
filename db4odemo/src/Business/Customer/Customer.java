@@ -9,7 +9,7 @@ import java.awt.Image;
 
 /**
  *
- * @author shivanginagar
+ * @author harold
  */
 public class Customer {
     

@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author shivanginagar
+ * @author harold
  */
 public class CustomerDirectory {
     
