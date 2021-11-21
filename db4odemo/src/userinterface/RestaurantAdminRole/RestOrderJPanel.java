@@ -98,17 +98,17 @@ public class RestOrderJPanel extends javax.swing.JPanel {
         btnAssignDeliveryMan = new javax.swing.JButton();
         btnBack = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 255, 255));
+        setBackground(new java.awt.Color(204, 255, 204));
         setForeground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblRestWorkList.setBackground(new java.awt.Color(204, 255, 255));
-        lblRestWorkList.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
+        lblRestWorkList.setFont(new java.awt.Font("Tamil MN", 1, 18)); // NOI18N
         lblRestWorkList.setForeground(new java.awt.Color(0, 51, 51));
         lblRestWorkList.setText("Restaurant Order Work List");
         add(lblRestWorkList, new org.netbeans.lib.awtextra.AbsoluteConstraints(337, 24, -1, -1));
 
-        tblOrderList.setBackground(new java.awt.Color(204, 255, 255));
+        tblOrderList.setBackground(new java.awt.Color(204, 255, 204));
         tblOrderList.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
         tblOrderList.setForeground(new java.awt.Color(0, 51, 51));
         tblOrderList.setModel(new javax.swing.table.DefaultTableModel(
@@ -142,7 +142,7 @@ public class RestOrderJPanel extends javax.swing.JPanel {
         add(scrollOrderList, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 843, 110));
 
         brnConfirmOrder.setBackground(new java.awt.Color(204, 255, 255));
-        brnConfirmOrder.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        brnConfirmOrder.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         brnConfirmOrder.setForeground(new java.awt.Color(0, 51, 51));
         brnConfirmOrder.setText("Confirm Order");
         brnConfirmOrder.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -151,9 +151,9 @@ public class RestOrderJPanel extends javax.swing.JPanel {
                 brnConfirmOrderActionPerformed(evt);
             }
         });
-        add(brnConfirmOrder, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 210, 110, 30));
+        add(brnConfirmOrder, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, 110, 30));
 
-        tblDeliManDetails.setBackground(new java.awt.Color(204, 255, 255));
+        tblDeliManDetails.setBackground(new java.awt.Color(204, 255, 204));
         tblDeliManDetails.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
         tblDeliManDetails.setForeground(new java.awt.Color(0, 51, 51));
         tblDeliManDetails.setModel(new javax.swing.table.DefaultTableModel(
@@ -180,7 +180,7 @@ public class RestOrderJPanel extends javax.swing.JPanel {
         add(scrollDeliveryMan, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 240, 407, 116));
 
         btnAssignDeliveryMan.setBackground(new java.awt.Color(204, 255, 255));
-        btnAssignDeliveryMan.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnAssignDeliveryMan.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnAssignDeliveryMan.setForeground(new java.awt.Color(0, 51, 51));
         btnAssignDeliveryMan.setText("Assign Delivery Man");
         btnAssignDeliveryMan.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -189,10 +189,10 @@ public class RestOrderJPanel extends javax.swing.JPanel {
                 btnAssignDeliveryManActionPerformed(evt);
             }
         });
-        add(btnAssignDeliveryMan, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 370, 140, 30));
+        add(btnAssignDeliveryMan, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 220, 140, 30));
 
         btnBack.setBackground(new java.awt.Color(204, 255, 255));
-        btnBack.setFont(new java.awt.Font("Ebrima", 1, 12)); // NOI18N
+        btnBack.setFont(new java.awt.Font("Tamil MN", 1, 12)); // NOI18N
         btnBack.setForeground(new java.awt.Color(0, 51, 51));
         btnBack.setText("Back");
         btnBack.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -201,7 +201,7 @@ public class RestOrderJPanel extends javax.swing.JPanel {
                 btnBackActionPerformed(evt);
             }
         });
-        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 360, 50, 30));
+        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 50, 30));
     }// </editor-fold>//GEN-END:initComponents
 
     private void brnConfirmOrderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_brnConfirmOrderActionPerformed
